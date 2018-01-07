@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Move",
+    "description": "Adds the option to move tabs to the start and end of the tab bar.",
+    "version": "1.0",
+    "applications": {
+        "gecko": {
+            "strict_min_version": "55.0"
+        }
+    },
+    "icons": {
+        "48": "icon-48.png",
+        "96": "icon-96.png"
+    },
+    "permissions": [
+        "menus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
